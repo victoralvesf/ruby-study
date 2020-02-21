@@ -16,7 +16,7 @@ Check if _RSpec_ is correctly installed
 
 `rspec --version`
 
-**Expect the output have something like**
+**The output expects to be something like**
 
 ```
 RSpec 3.9
