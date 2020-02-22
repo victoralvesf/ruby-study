@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="14" skipped="0" failures="0" errors="0" time="0.001904" timestamp="2020-02-21T22:38:27-03:00" hostname="victor-PC">
+<properties>
+<property name="seed" value="28004"/>
+</properties>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o valor é positivo entao atualiza o saldo" file="./spec/bank/saque_cc_spec.rb" time="0.000214"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo e zero entao exibe a mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000041"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo e zero e o saldo permance em zero" file="./spec/bank/saque_cc_spec.rb" time="0.000031"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando nao possui saldo suficiente entao exibe a mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000032"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando nao possui saldo suficiente e o saldo permance o mesmo" file="./spec/bank/saque_cc_spec.rb" time="0.000029"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando supera o limite de saque entao exibe a mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000033"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando supera o limite de saque e o saldo permance o mesmo" file="./spec/bank/saque_cc_spec.rb" time="0.000044"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o valor é positivo entao atualiza o saldo" file="./spec/bank/saque_cp_spec.rb" time="0.000051"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo e zero entao exibe a mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000035"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo e zero e o saldo permance em zero" file="./spec/bank/saque_cp_spec.rb" time="0.000065"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando nao possui saldo suficiente entao exibe a mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000035"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando nao possui saldo suficiente e o saldo permance o mesmo" file="./spec/bank/saque_cp_spec.rb" time="0.000030"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando supera o limite de saque entao exibe a mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000033"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando supera o limite de saque e o saldo permance o mesmo" file="./spec/bank/saque_cp_spec.rb" time="0.000032"></testcase>
+</testsuite>
