@@ -2,4 +2,4 @@
 
 #### Continuar
 
-- Aula manipulando Checkbox
+- Aula sobre alertas javascript
